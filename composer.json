@@ -1,0 +1,25 @@
+{
+    "name": "pioto/laravel-api-query",
+    "description": "Laravel API Query Builder Package.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["laravel", "api"],
+    "authors": [
+        {
+            "name": "Gabriel Pioto",
+            "email": "gabriel.piotogomes@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "illuminate/support": ">=5.0.0",
+        "illuminate/database": ">=5.0.0",
+        "illuminate/http": ">=5.0.0"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Pioto\\Laravel\\Api\\": "src"
+        }
+    }
+}
